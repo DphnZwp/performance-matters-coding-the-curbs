@@ -1,0 +1,106 @@
+<%- include('./partials/head') %>
+
+<section id="smartzones">
+  <h1><%= title %></h1>
+  <p>
+    Hier is een overzicht met smartzones. Je kan ook smartzones sorteren
+    op alle smartzones, naam, functie, stad en locatie.
+  </p>
+</section>
+
+<section class="smartzone-buttons">
+  <a class="button-post" href="/toevoegen">Smart zone toevoegen</a>
+  <a class="button-put" href="/bewerken">Smart zone bewerken</a>
+  <a class="button-delete" href="/verwijderen">Smart zone verwijderen</a>
+</section>
+
+<section class="sorting">
+  <a class="white-button right-arrow" href="/smartzones">Alle smart zones</a>
+  <select class="select-name" onChange="window.location.href=this.value">
+    <option value="/">Sorteer op naam</option>
+    <% smartzones.forEach((smartzone) => { %>
+    <option value="/smartzones/naam/<%- smartzone.smartzoneId %>"><%- smartzone.name %></option>
+    <% }) %>
+  </select>
+  <select class="select-function" onChange="window.location.href=this.value">
+    <option value="/">Sorteer op functie</option>
+    <option value="/smartzones/functie/deelmobiliteit">Deelmobiliteit</option>
+    <option value="/smartzones/functie/ladenenlossen">Laden en lossen</option>
+    <option value="/smartzones/functie/parkeren">Parkeren</option>
+    <option value="/smartzones/functie/recreatie">Recreatie</option>
+  </select>
+  <select class="select-town" onChange="window.location.href=this.value">
+    <option value="/">Sorteer op stad</option>
+    <option value="/smartzones/stad/amsterdam">Amsterdam</option>
+    <option value="/smartzones/stad/rotterdam">Rotterdam</option>
+    <option value="/smartzones/stad/schiedam">Schiedam</option>
+    <option value="/smartzones/stad/utrecht">Utrecht</option>
+  </select>
+  <select class="select-location" onChange="window.location.href=this.value">
+    <option value="/">Sorteer op location</option>
+    <% smartzones.forEach((smartzone) => { %>
+      <option value="/smartzones/location/<%- smartzone.smartzoneId %>"><%- smartzone.location %></option>
+    <% }) %>
+  </select>
+</section>
+
+<section class="tables">
+  <% 
+  smartzones
+    .filter((smartzone) => {
+      return smartzone.town === 'Utrecht'
+    })
+    .map((smartzone) => { %>
+      <table>
+        <tbody>
+        <tr class="background-image">
+					<th><%- smartzone.name %></th>
+        </tr>
+        <tr>
+					<th>Stad</th>
+        </tr>
+        <tr>
+					<td><%- smartzone.town %></td>
+        </tr>
+        <tr>
+					<th>Locatie</th>
+        </tr>
+        <tr>
+					<td><%- smartzone.location %></td>
+        </tr>
+        <tr>
+					<th>functie</th>
+        </tr>
+        <tr>
+					<td><%- smartzone.function %></td>
+        </tr>
+				<tr>
+					<th>Tijdstip</th>
+				</tr>
+				<tr>
+					<td><%- smartzone.time %></td>
+				</tr>
+				<tr>
+					<th>Grootte (plek)</th>
+				</tr>
+				<tr>
+					<td><%- smartzone.size %></td>
+				</tr>
+				<tr>
+					<th>Gebruik (%)</th>
+				</tr>
+				<tr>
+					<td><%- smartzone.utilization %></td>
+				</tr>
+				<tr>
+					<th>Omschrijving</th>
+				</tr>
+				<tr>
+					<td><%- smartzone.description %></td>
+				</tr>
+      </tbody></table>
+      <img class="image-table" src="<%- smartzone.image %>" alt="Google maps <%- smartzone.location %>">
+  <% }) %>
+</section>
+
+<%- include('./partials/foot') %>

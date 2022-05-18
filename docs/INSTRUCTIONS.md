@@ -1,59 +1,69 @@
-# Coding the Curbs | Smart Zones
+
+# Performance Matters - Serverside optimization
+
+Een deeltaak waarin je drie server-side performance optimalisaties toepast op jouw project.
 
 ## Context
-Deze leertaak hoort bij de sprint Performance Matters. Dit is een autonomous leertaak die je individueel uitvoert voor Fronteer.
 
-![Coding the Curbs](https://github.com/fdnd-task/the-startup-coding-the-curbs/blob/a51f9a8839b71381d9d4fae95579c0644acaabaa/docs/Coding%20the%20Curbs%20-%20Illustratie%2005.jpeg)
+Deze leertaak hoort bij sprint 10 Performance Matters. Dit is een deeltaak die je individueel uitvoert.
 
-## Briefing
-Coding the Curbs is een start-up die sinds januari 2020 werkt aan het slimmer maken van de steden. Door de ruimte in een stad te 'coderen' is het mogelijk om plekken diverse functies te laten vervullen op verschillende momenten. Denk daarbij aan een parkeerplek die ruimte biedt voor laden & lossen doordeweeks, en voor terrassen in het weekend. Sinds onze start zijn wij een stuk verder met het ontwikkelen van ons product.  
+In het college S10W1-02-server-side-performance wordt behandeld hoe je server-side optimalisatie kan toepassen.
 
-In deze sprint optimaliseer je de performance van de Smart Zones pagina van de website. 
+
 
 ## Doel van deze opdracht
-Je leert hoe je de (percieved) performance van een bestaande website kan verbeteren.
 
-## Planning
+Je hebt geleerd dat *Performance* een heel belangrijk aandachtspunt is bij het bouwen van websites. In deze opdracht leer je in een paar stappen laag hangend performance fruit te pakken. Met een aantal relatief simpele ingrepen kan je jouw website performance verbeteren. 
 
-<table>
-    <tr>
-        <td colspan="4"><b>Week 1</b></td>
-    </tr>
-    <tr>
-        <td>Maandag</td>
-        <td>25 april</td>
-        <td>13:00 uur *</td>
-        <td>Voortgangsgesprek</td>
-    </tr>
-    <tr>
-        <td colspan="4"><b>Week 3</b></td>
-    </tr>
-    <tr>
-        <td>Donderdag</td>
-        <td>18 mei</td>
-        <td>13:00 uur *</td>
-        <td>Voortgangsgesprek</td>
-    </tr>
-</table>
-* vanaf 13:00 uur
+Het resultaat is gegarandeerd het sneller inladen van jouw website!
 
 ## Werkwijze
-Deze opdracht gaat over alle fases van de DLC [analyseren](#analyseren), [ontwerpen](#ontwerpen), [bouwen](#bouwen), [integreren](#integreren) en [testen](#testen).
 
-### Analyseren
-*In de analysefase inventariseer je wat er moet gebeuren om een taak uit te voeren.*
+Opdracht: Implementeer vier serverside performance optimalisaties: Minifying, Code splitting, Caching en Compressie.
 
-### Ontwerpen
-*In de ontwerpfase neem je ontwerpbeslissingen en zorg je dat je precies weet wat je moet gaan bouwen.*
+
+Deze opdracht gaat over de [bouw](#bouwen) fase van de DLC.
+
+
 
 ### Bouwen
-*In de bouwfase realiseer je de beslissingen uit de ontwerpfase.*
 
-### Integreren
-*In de integratiefase voer je de aanpassingen door zodat iedereen ze kan zien.*
+Voor deze opdracht voer je vier performance optimalisaties uit op een bestaand project. Kies een bestaand project uit jouw Github account om de optimalisaties op uit te voeren. Begin met een [Performance Audit](https://github.com/fdnd-task/performance-matters-performance-audit)
 
-### Testen
-*In de testfase controleer je of jouw aanpassingen werken zoals bedoeld.*
+
+<details>
+<summary>Aanpak</summary>
+
+1. Minify jouw CSS door gebruik te maken van PostCSS (optioneel: minify ook je client-side javascript).
+2. Pas handmatig code-splitting toe op client-side javascript bestanden zodat alleen zaken worden ingeladen die écht gebruikt worden.
+3. Verstuur cache-control headers bij GET requests naar jouw website, kies beargumenteerd een max-age.
+4. Pas compressie toe. (optioneel: kies de juiste compressie aan de hand van het request)
+
+#### Materiaal bouwfase
+
+- [How to minify CSS with Node.js @ benborgers.com](https://benborgers.com/posts/node-minify-css)
+- [Code splitting @ MDN](https://developer.mozilla.org/en-US/docs/Glossary/Code_splitting)
+- [Cache headers in Express js app @ Regbrain.com](https://regbrain.com/article/cache-headers-express-js)
+- [Gzip compression with Node.js @ victorvr.com](https://www.victorvr.com/tutorial/compresion-gzip-con-nodejs)
+- [Node.js compression middleware @ expressjs.com](http://expressjs.com/en/resources/middleware/compression.html)
+- [Compression @ npmjs.com](https://www.npmjs.com/package/compression)
+
+</details>
+
+
 
 ## Criteria
-*Definitions of done*
+
+Focus sprint 10 - De focus van deze sprint ligt op het beter en sneller laten werken van een applicatie.
+
+### Deze leertaak hoort bij het gedragscriterium:
+
+M: Je combineert aangeboden principes en conventies op het gebied van frontend, interface design en vormgeving.
+C: Je kan ontwerpkeuzes, eigen ideeën en producten begrijpelijk overbrengen aan belanghebbenden.
+
+### Deze opdracht is done als:
+
+- [ ] Je hebt de vier performance optimalisaties geïmplementeerd
+- [ ] Je hebt de performance optimalisatie geanalyseerd met een [Performance Audit](https://github.com/fdnd-task/performance-matters-performance-audit) vooraf én achteraf.
+- [ ] Je hebt de performance optimalisatie gedocumenteerd in de Readme van de leertaak.
+
