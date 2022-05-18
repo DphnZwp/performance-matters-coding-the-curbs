@@ -1,5 +1,5 @@
-# Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+# 🚐 Performance optimalisatie Coding the Curbs
+De performance optimaliseren van de Coding the Curbs Smart Zones pagina van de vorige sprint.
 
 ## Inhoudsopgave
 
@@ -23,9 +23,11 @@
 ## Gebruik
 
 ## Bronnen
+- https://www.smashingmagazine.com/2021/01/front-end-performance-2021-free-pdf-checklist/
+- https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types/preload
 
 ## Licentie
 
 ![GNU GPL V3](https://www.gnu.org/graphics/gplv3-127x51.png)
 
-This work is licensed under [GNU GPLv3](./LICENSE.
+This work is licensed under [GNU GPLv3](./LICENSE).
