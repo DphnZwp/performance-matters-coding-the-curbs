@@ -22,7 +22,17 @@ app.use(compression())
 
 // Stel caching headers in
 app.use((req, res, next) => {
-  res.set('Cache-control', 'public, max-age=86400')
+  const period = 60 * 60
+
+  // Cache for GET requests
+  if (req.method == 'GET') {
+    res.set('Cache-control', `public, max-age=${period}`)
+  } else {
+    // Strict for no caching parameters
+    res.set('Cache-control', `no-store`)
+  }
+
+  // To pass on the request
   next()
 })
 
