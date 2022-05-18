@@ -62,9 +62,9 @@ app.post('/toevoegen', urlencodedParser, (request,response) =>{
 })
 
 app.get('/toevoegen', (request, response) => {
-    response.render('add', {
-      title: 'Smart zone toevoegen',
-    })
+  response.render('add', {
+    title: 'Smart zone toevoegen',
+  })
 })
 
 // PUT form
@@ -82,9 +82,9 @@ app.post('/bewerken', urlencodedParser, (request,response) =>{
 })
 
 app.get('/bewerken', (request, response) => {
-    response.render('edit', {
-      title: 'Smart zone bewerken',
-    })
+  response.render('edit', {
+    title: 'Smart zone bewerken',
+  })
 })
 
 // DELETE form
@@ -102,16 +102,16 @@ app.post('/verwijderen', urlencodedParser, (request,response) =>{
 })
 
 app.get('/verwijderen', (request, response) => {
-    response.render('remove', {
-      title: 'Smart zone verwijderen',
-    })
+  response.render('remove', {
+    title: 'Smart zone verwijderen',
+  })
 })
 
 // All smartzones
 app.get('/smartzones', (request, response) => {
   fetchJson(url).then(function (
     jsonData
-  ) {
+  ){
     response.render('smartzones', {
       title: 'Alle smart zones',
       smartzones: jsonData.data,
@@ -123,7 +123,7 @@ app.get('/smartzones', (request, response) => {
 app.get('/smartzones/naam/:smartzoneId', (request, response) => {
   fetchJson(`${url}/${request.params.smartzoneId}`).then(function (
     jsonData
-  ) {
+  ){
     response.render('filtering/name', {
       title: 'Smart zone van',
       name: jsonData.data[0],
