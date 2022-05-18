@@ -1,4 +1,4 @@
-# Performance optimalisatie Coding the Curbs
+# 🚐 Performance optimalisatie Coding the Curbs
 De performance optimaliseren van de Coding the Curbs Smart Zones pagina van de vorige sprint.
 
 ## Inhoudsopgave
