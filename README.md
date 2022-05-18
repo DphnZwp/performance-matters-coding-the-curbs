@@ -23,6 +23,7 @@
 ## Gebruik
 
 ## Bronnen
+- https://www.smashingmagazine.com/2021/01/front-end-performance-2021-free-pdf-checklist/
 - https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types/preload
 
 ## Licentie
