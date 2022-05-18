@@ -116,11 +116,13 @@ header {
 }
 
 .logo {
+  margin-top: 2em;
+  margin-left: 4em;
   display: block;
 }
 
 .primary-navigation {
-  margin-top: 7em;
+  margin-top: 2em;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   justify-items: center;
@@ -524,6 +526,8 @@ button[type='submit'] {
   }
 
   .logo {
+    margin-top: 0;
+    margin-left: 0;
     position: relative;
   }
 

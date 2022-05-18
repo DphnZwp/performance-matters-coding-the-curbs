@@ -20,9 +20,10 @@ app.set('views', 'views')
 // compress all responses
 app.use(compression())
 
-// Stel caching headers in
+// Caching headers
 app.use((req, res, next) => {
-  const period = 60 * 60
+  // A day
+  const period = 60 * 60 * 24
 
   // Cache for GET requests
   if (req.method == 'GET') {
