@@ -42,7 +42,7 @@ De performance van de is nu 100. En de finish tijd is 1.84 seconden met snelle 3
 ## Installatie & Gebruik
 1. Clone of download deze respository.
 2. Ga naar de root directory van het project.
-3. Open een niewe terminal en typ "npm run start" of "npm run dev".
+3. Open een nieuwe terminal en typ "npm run start" of "npm run dev".
 
 Hieronder zijn commandlines van HTTPS en SSH die je kunt uitvoeren in de opdrachtprompt om het project te clonen en om naar de root directory te gaan.
 
