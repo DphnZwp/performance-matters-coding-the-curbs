@@ -14,6 +14,7 @@ De performance optimaliseren van de Coding the Curbs Smart Zones pagina van de v
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
 <!-- Voeg een mooie poster visual toe 📸 -->
 <!-- Voeg een link toe naar Github Pages 🌐-->
+Om de performance van de website te optimaliseren heb ik de server-side geoptimaliseerd in een [deeltaak](https://github.com/DphnZwp/performance-matters-serverside-optimization). 
 ### Performance van sprint 7 website
 ![Google chrome Lighthouse performance van 77](https://user-images.githubusercontent.com/69635977/167390941-7ad3d2d5-e5fe-4ddd-ba3b-e3fc123264d5.png)
 
