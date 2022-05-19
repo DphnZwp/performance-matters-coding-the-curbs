@@ -14,9 +14,31 @@ De performance optimaliseren van de Coding the Curbs Smart Zones pagina van de v
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
 <!-- Voeg een mooie poster visual toe 📸 -->
 <!-- Voeg een link toe naar Github Pages 🌐-->
+### Performance van sprint 7 website
+![Google chrome Lighthouse performance van 77](https://user-images.githubusercontent.com/69635977/167390941-7ad3d2d5-e5fe-4ddd-ba3b-e3fc123264d5.png)
+
+![Schermafbeelding 2022-05-09 125727](https://user-images.githubusercontent.com/69635977/167396539-ae597e97-3fd0-4baf-a014-7c11a2e8459c.png)
+
+### Performance van nu
+De performance van de is nu 100. En de finish tijd is 1.84 seconden met snelle 3g internet.
+![Schermafbeelding 2022-05-19 110720](https://user-images.githubusercontent.com/69635977/169261432-af21f985-21c9-47f6-8e03-c01118110553.png)
+
+![Schermafbeelding 2022-05-19 110720](https://user-images.githubusercontent.com/69635977/169257267-c0cf43ec-ff73-4fa3-8515-b22d98ba375c.png)
 
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
+## Kenmerken
+- 💀 HTML5
+- 🧍 CSS3
+- ⚽ JavaScript
+- 🐸 Node.js
+- 🥇 Express
+- 🤳 EJS
+
+### Tools gebruikt:
+- 💻 Visual Studio Code
+- ✍️ Adobe Illustrator
+- ✍️ Potlood, Stift en Papier
 
 ## Installatie
 
