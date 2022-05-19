@@ -27,8 +27,6 @@ De performance van de is nu 100. En de finish tijd is 1.84 seconden met snelle 3
 ![Schermafbeelding 2022-05-19 112528](https://user-images.githubusercontent.com/69635977/169261754-30860cd3-0053-4037-b726-8e67b5516f7e.png)
 
 ## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
-## Kenmerken
 - 💀 HTML5
 - 🧍 CSS3
 - ⚽ JavaScript
