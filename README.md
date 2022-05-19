@@ -13,7 +13,7 @@ De performance optimaliseren van de Coding the Curbs Smart Zones pagina van de v
 ## Beschrijving
 Om de performance van de website te optimaliseren heb ik eerst de server-side geoptimaliseerd in een [deeltaak](https://github.com/DphnZwp/performance-matters-serverside-optimization) en daarna de client-side. Ik voor de server-side minifying, caching en compressie toegepast en voor de client-side naar afbeeldingen en fonts gekeken en geoptimaliseerd.
 
-![FireShot Capture 004 - Coding the Curbs - The smart city of tommorow - localhost](https://user-images.githubusercontent.com/69635977/169263814-900d5144-433a-4a41-81ba-180ae08ce1ce.png)
+![screencapture-localhost-9000-2022-05-19-11_40_12](https://user-images.githubusercontent.com/69635977/169264620-141e50c1-c671-4a17-9d2b-5dfb5751ecf4.png)
 
 ### Performance van sprint 7 website
 ![Google chrome Lighthouse performance van 77](https://user-images.githubusercontent.com/69635977/167390941-7ad3d2d5-e5fe-4ddd-ba3b-e3fc123264d5.png)
