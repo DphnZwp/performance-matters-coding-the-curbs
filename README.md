@@ -39,9 +39,27 @@ De performance van de is nu 100. En de finish tijd is 1.84 seconden met snelle 3
 - ✍️ Adobe Illustrator
 - ✍️ Potlood, Stift en Papier
 
-## Installatie
+## Installatie & Gebruik
+1. Clone of download deze respository.
+2. Ga naar de root directory van het project.
+3. Open het index.html bestand. Hier kan je de eerste pagina zien van de website.
 
-## Gebruik
+Hieronder zijn commandlines van HTTPS en SSH die je kunt uitvoeren in de opdrachtprompt om het project te clonen en om naar de root directory te gaan.
+
+**Installeren met HTTPS**
+
+```
+git clone https://github.com/DphnZwp/performance-matters-coding-the-curbs
+cd https://github.com/DphnZwp/performance-matters-coding-the-curbs.git
+```
+
+**Installeren met SSH**
+
+```
+git@github.com:DphnZwp/performance-matters-coding-the-curbs.git
+cd performance-matters-coding-the-curbs.git
+
+```
 
 ## Bronnen
 - https://www.smashingmagazine.com/2021/01/front-end-performance-2021-free-pdf-checklist/
