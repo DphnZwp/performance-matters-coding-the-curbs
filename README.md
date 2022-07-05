@@ -11,7 +11,7 @@ De performance optimaliseren van de Coding the Curbs Smart Zones pagina van de v
   * [Licentie](#licentie)
 
 ## Beschrijving
-Om de performance van de website te optimaliseren heb ik eerst de server-side geoptimaliseerd in een [deeltaak](https://github.com/DphnZwp/performance-matters-serverside-optimization) en daarna de client-side. Ik voor de server-side minifying, caching en compressie toegepast en voor de client-side naar afbeeldingen en fonts gekeken en geoptimaliseerd.
+Om de performance van de website te optimaliseren heb ik eerst de server-side geoptimaliseerd in een [deeltaak](https://github.com/DphnZwp/performance-matters-serverside-optimization) en daarna de client-side. Ik heb voor de server-side minifying, caching en compressie toegepast en voor de client-side naar afbeeldingen en fonts gekeken en geoptimaliseerd.
 
 ![screencapture-localhost-9000-2022-05-19-11_40_12](https://user-images.githubusercontent.com/69635977/169264620-141e50c1-c671-4a17-9d2b-5dfb5751ecf4.png)
 
